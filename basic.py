@@ -51,3 +51,10 @@ print(l5)
 l6= [i for i in range(4,26) if i%3==0]
 print(l6)
 
+#square of all even no in l6
+l7= [i*i for i in l6 if i%2==0]
+print(l7)
+
+#square of all odd no in l6
+l8= [i*i for i in l6 if i%2!=0]
+print(l8)
