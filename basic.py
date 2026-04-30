@@ -62,7 +62,6 @@ print(l8)
 l9=[3,6,2,5,1]
 l10=["even" if i%2==0 else "odd" for i in l6]
 print(l10)
-
 l11=[[1,2,3],[4,5,6],[7,8,9]]
 l12=[[i[0],i[-1]] for i in l11 ]
 print (l12)
